@@ -7,21 +7,31 @@ from collections import deque
 #         self.right = right
 class Solution:
     def isSameTree(self, p: Optional[TreeNode], q: Optional[TreeNode]) -> bool:
-        def checkSame(p,q):
+#         def checkSame(p,q):
+#             if not(p or q):return True
+#             if not(p and q) or (p.val!=q.val) :return False
+#             return True
+        
+        
+#         r=deque([(p, q)])
+#         while r:
+#             p,q=r.popleft()
+#             if checkSame(p,q):
+#                 if p:
+#                     r.append((p.left,q.left))
+#                     r.append((p.right,q.right))
+#             else:
+#                 return False
+#         return True
+        def dfs(p,q):
+            
             if not(p or q):return True
-            if not(p and q) or (p.val!=q.val) :return False
-            return True
+            if not(p and q) or (p.val!=q.val):return False
+            
+            return dfs(p.right,q.right) and dfs(p.left,q.left)
+        return dfs(p,q)
         
         
-        r=deque([(p, q)])
-        while r:
-            p,q=r.popleft()
-            if checkSame(p,q):
-                if p:
-                    r.append((p.left,q.left))
-                    r.append((p.right,q.right))
-            else:
-                return False
-        return True
+        
         
             
