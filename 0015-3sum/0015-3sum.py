@@ -15,6 +15,8 @@ class Solution:
                     high-=1
                 else:
                     li.append([-tar,nums[low],nums[high]])
+                    if nums[high]==nums[low]:
+                        break
                     while low<high and nums[low]==nums[low+1]:
                         low+=1
                     low+=1
