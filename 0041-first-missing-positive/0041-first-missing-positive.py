@@ -9,7 +9,10 @@ class Solution:
             if index>=0 and index<len(nums):
                 if nums[index]==0:
                     nums[index]=-(index+1)  
-            #what we are trying to do here is that, we are directed to an index where value is 0,now we cant change the                                                  value 0 to negative as - 0 is 0 nly also we cant cchange it to a random number as it can also lead to direction                                              to a random index so we assign it a value which will direct it to the same index again or we can change it to a                                              value which is out of bound of our search space.
+            #what we are trying to do here is that, we are directed to an index where value is 0,now we cant change the
+            #value 0 to negative as - 0 is 0 nly also we cant cchange it to a random number as it can also lead to direction
+            #to a random index so we assign it a value which will direct it to the same index again or we can change it to a
+            #value which is out of bound of our search space.
                 else:
                     nums[index]=-abs(nums[index])
                 
