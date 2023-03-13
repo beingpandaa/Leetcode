@@ -8,7 +8,7 @@ class Solution:
             index=abs(nums[i])-1
             if index>=0 and index<len(nums):
                 if nums[index]==0:
-                    nums[index]=-(len(nums)+4)
+                    nums[index]=-(index+1)
                 else:
                     nums[index]=-abs(nums[index])
                 
