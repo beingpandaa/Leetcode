@@ -5,14 +5,20 @@ class Solution:
         
         ans1=nums[i]*d[nums[i]]
         if nums[i+1]==nums[i]+1:
+            
             if deepee[i+2]==-1:deepee[i+2]=self.helper(nums,i+2,d,deepee)
+            if deepee[i+1]==-1:deepee[i+1]=self.helper(nums,i+1,d,deepee)
+            
+            
             ans1+=deepee[i+2]
+            ans2=deepee[i+1]
+            
+            return max(ans1,ans2)
         else:
             if deepee[i+1]==-1:deepee[i+1]=self.helper(nums,i+1,d,deepee)
             ans1+=deepee[i+1]
-        if deepee[i+1]==-1:deepee[i+1]=self.helper(nums,i+1,d,deepee)
-        ans2=deepee[i+1]
-        return max(ans1,ans2)
+        
+            return ans1
         
         
     def deleteAndEarn(self, nums: List[int]) -> int:
