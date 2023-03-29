@@ -11,6 +11,7 @@ class Solution:
         while i<n and total<total-arr[i] :
             total=total-arr[i]
             i+=1
+        
         return total
             
             
