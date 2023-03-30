@@ -1,17 +1,23 @@
 class Solution:
-    def isScramble(self, s1: str, s2: str) -> bool:
-        n = len(s1)
-        dp = [[[False for j in range(n)] for i in range(n)]
-              for l in range(n+1)]
-        for i in range(n):
-            for j in range(n):
-                dp[1][i][j] = s1[i] == s2[j]
-        for length in range(2, n + 1):
-            for i in range(n + 1 - length):
-                for j in range(n + 1 - length):
-                    for new_length in range(1, length):
-                        dp1 = dp[new_length][i]
-                        dp2 = dp[length-new_length][i+new_length]
-                        dp[length][i][j] |= dp1[j] and dp2[j+new_length]
-                        dp[length][i][j] |= dp1[j+length-new_length] and dp2[j]
-        return dp[n][0][0]
+    def helper(self,s,t,d):
+        if s==t:return True
+        for i in range(len(s)-1):
+            # if not swap
+            if (s[:i+1],t[:i+1]) not in d:d[(s[:i+1],t[:i+1])]=self.helper(s[:i+1],t[:i+1],d)
+            if (s[i+1:],t[i+1:]) not in d:d[(s[i+1:],t[i+1:])]=self.helper(s[i+1:],t[i+1:],d)    
+            ans1=d[(s[:i+1],t[:i+1])]
+            ans2=d[(s[i+1:],t[i+1:])]
+            if ans1 and ans2:return True
+            
+            # if swap
+            if (s[:i+1],t[-i-1:]) not in d:d[(s[:i+1],t[-i-1:])]=self.helper(s[:i+1],t[-i-1:],d)
+            if (s[i+1:],t[:-i-1]) not in d:d[(s[i+1:],t[:-i-1])]=self.helper(s[i+1:],t[:-i-1],d) 
+            ans1=d[(s[:i+1],t[-i-1:])]
+            ans2=d[(s[i+1:],t[:-i-1])]
+            if ans1 and ans2:return True
+        return False
+        
+    def isScramble(self, s: str, t: str) -> bool:
+            d={}
+            return self.helper(s,t,d)
+        
