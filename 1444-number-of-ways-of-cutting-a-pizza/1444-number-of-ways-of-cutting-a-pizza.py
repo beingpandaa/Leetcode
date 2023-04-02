@@ -2,21 +2,22 @@ class Solution:
     
     def helper(self,li,i,j,k,dp):
         # print('efef',i,j,k)
-        if k==1 and li[i][j]>0:
-            return 1
-        if li[i][j]<k:
-            return  0
+        if k==1 and li[i][j]>0:return 1
+        if li[i][j]<k: return  0
         
         
         op=0
-        if dp[i][j][k]!=-1:return dp[i][j][k]
+        
         for row in range(i+1,len(li)):
             if li[i][j]-li[row][j]>0: 
-                op+=self.helper(li,row,j,k-1,dp)
+                # print(row,j,k-1)
+                # print(dp)
+                if dp[row][j][k-1]==-1:dp[row][j][k-1]=self.helper(li,row,j,k-1,dp)
+                op+=dp[row][j][k-1]
         for col in range(j+1,len(li[0])):
             if li[i][j]-li[i][col]>0:
-                op+=self.helper(li,i,col,k-1,dp)
-        dp[i][j][k]=op
+                if dp[i][col][k-1]==-1:dp[i][col][k-1]=self.helper(li,i,col,k-1,dp)
+                op+=dp[i][col][k-1]
         return op
         
         
