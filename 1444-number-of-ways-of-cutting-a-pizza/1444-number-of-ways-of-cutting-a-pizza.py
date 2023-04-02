@@ -1,27 +1,50 @@
 class Solution:
-    def ways(self, pizza: List[str], k: int) -> int:
-        rows = len(pizza)
-        cols = len(pizza[0])
-        apples = [[0] * (cols + 1) for row in range(rows + 1)]
-        for row in range(rows - 1, -1, -1):
-            for col in range(cols - 1, -1, -1):
-                apples[row][col] = ((pizza[row][col] == 'A')
-                                    + apples[row + 1][col]
-                                    + apples[row][col + 1]
-                                    - apples[row + 1][col + 1])
-        dp = [[[0 for col in range(cols)] for row in range(rows)] for remain in range(k)]
-        dp[0] = [[int(apples[row][col] > 0) for col in range(cols)]
-             for row in range(rows)]
-        mod = 1000000007
-        for remain in range(1, k):
-            for row in range(rows):
-                for col in range(cols):
-                    val = 0
-                    for next_row in range(row + 1, rows):
-                        if apples[row][col] - apples[next_row][col] > 0:
-                            val += dp[remain - 1][next_row][col]
-                    for next_col in range(col + 1, cols):
-                        if apples[row][col] - apples[row][next_col] > 0:
-                            val += dp[remain - 1][row][next_col]
-                    dp[remain][row][col] = val % mod
-        return dp[k - 1][0][0]
+    
+    def helper(self,li,i,j,k,dp):
+        # print('efef',i,j,k)
+        if k==1 and li[i][j]>0:return 1
+        if li[i][j]<k: return  0
+        
+        
+        op=0
+        for row in range(i+1,len(li)):
+            if li[i][j]-li[row][j]>0: 
+                # print(row,j,k-1)
+                # print(dp)
+                if dp[row][j][k-1]==-1:dp[row][j][k-1]=self.helper(li,row,j,k-1,dp)
+                op+=dp[row][j][k-1]
+        for col in range(j+1,len(li[0])):
+            if li[i][j]-li[i][col]>0:
+                if dp[i][col][k-1]==-1:dp[i][col][k-1]=self.helper(li,i,col,k-1,dp)
+                op+=dp[i][col][k-1]
+        return op
+        
+        
+        
+    def ways(self, arr: List[str], k: int) -> int:
+        
+        dp=[[[-1 for i in range(k+1)] for i in range(len(arr[0]))] for i in range(len(arr))]
+        # for ele in dp:
+        #     print(ele)
+        li=[[0 for i in range(len(arr[0]))]for i in range(len(arr))]
+        for i in range(len(arr)-1,-1,-1):
+            for j in range(len(arr[0])-1,-1,-1):
+                z=-1
+                if i==len(arr)-1:
+                    x=0
+                    z=0
+                else:
+                    x=li[i+1][j]
+                if j==len(arr[0])-1:
+                    y=0
+                    z=0
+                else:
+                    y=li[i][j+1]
+                if z==-1:
+                    z=li[i+1][j+1]
+                if arr[i][j]=='.':
+                    li[i][j]=x+y-z
+                else: 
+                    li[i][j]=1+x+y-z
+        # print(k)
+        return self.helper(li,0,0,k,dp)%(1000000007)
