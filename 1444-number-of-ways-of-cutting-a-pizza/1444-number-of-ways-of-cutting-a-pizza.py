@@ -12,13 +12,9 @@ class Solution:
         if dp[i][j][k]!=-1:return dp[i][j][k]
         for row in range(i+1,len(li)):
             if li[i][j]-li[row][j]>0: 
-                # print(row,j,k-1)
-                # print(dp)
-                # if dp[row][j][k-1]==-1:dp[row][j][k-1]=self.helper(li,row,j,k-1,dp)
                 op+=self.helper(li,row,j,k-1,dp)
         for col in range(j+1,len(li[0])):
             if li[i][j]-li[i][col]>0:
-                # if dp[i][col][k-1]==-1:dp[i][col][k-1]=self.helper(li,i,col,k-1,dp)
                 op+=self.helper(li,i,col,k-1,dp)
         dp[i][j][k]=op
         return op
