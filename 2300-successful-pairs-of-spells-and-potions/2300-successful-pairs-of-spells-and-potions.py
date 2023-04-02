@@ -1,32 +1,19 @@
 class Solution:
-    def findIndex(self,potions,mul,j,tar):
-        i=0
-        index=len(potions)
-        while i<=j:
-            mid=(i+j)//2
-            if potions[mid]*mul>=tar:
-                index=mid
-                j=mid-1
-            else:
-                i=mid+1
-        return index
-                
     def successfulPairs(self, spells: List[int], potions: List[int], success: int) -> List[int]:
-        
-        
-        arr=sorted(spells)
+        sortedSpells = [(spell, index) for index, spell in enumerate(spells)]
+
+        # Sort the 'spells with index' and 'potions' array in increasing order.
+        sortedSpells.sort()
         potions.sort()
-        d={}
-        j=len(potions)-1
-        for ele in arr:
-            if ele not in d:
-                index=self.findIndex(potions,ele,j,success)
-                # print(index)
-                d[ele]=len(potions)-index
-                if index!=len(potions):
-                    j=index
-        li=[]
-        for ele in spells:
-            li.append(d[ele])
-        return li
-            
+
+        answer = [0] * len(spells)
+        m = len(potions)
+        potionIndex = m - 1
+        
+        # For each 'spell' find the respective 'minPotion' index.
+        for spell, index in sortedSpells:
+            while potionIndex >= 0 and (spell * potions[potionIndex]) >= success:
+                potionIndex -= 1
+            answer[index] = m - (potionIndex + 1)
+        
+        return answer
