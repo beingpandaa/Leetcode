@@ -4,8 +4,7 @@ class Solution:
         total=nums[0]
         for i in range(1,len(nums)):
             total+=nums[i]
-            if nums[i]>ans:
-                avg=math.ceil(total/(i+1))
-                ans=max(ans,avg)
+            if nums[i]>ans:ans=max(ans,math.ceil(total/(i+1)))
         return ans
-            
+    
+                                                                                                                                            
