@@ -12,4 +12,4 @@ class Solution:
         dp=[0 for i in range(len(nums)+2)]
         for i in range(len(nums)-1,-1,-1):
             dp[i]=max(nums[i]+dp[i+2],dp[i+1])
-        return dp[i]
+        return dp[0]
