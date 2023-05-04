@@ -6,8 +6,6 @@ class Solution:
         r=0
         d=0
         while de:
-            
-            print(de)
             for i in range(len(de)):
                 ele=de.popleft()
                 if ele=='R':
