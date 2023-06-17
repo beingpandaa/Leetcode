@@ -1,30 +1,23 @@
 class Solution:
+    def dfs(self,i,arr1,arr2,prev,dp):
+        if i==len(arr1):return 0
+        dp[(prev,i)]=sys.maxsize
+        if arr1[i]>prev:
+            if (arr1[i],i+1) not in dp:dp[(arr1[i],i+1)]=self.dfs(i+1,arr1,arr2,arr1[i],dp)
+            dp[(prev,i)]=dp[(arr1[i],i+1)]
+        index=bisect.bisect_right(arr2, prev)
+        if index<len(arr2):
+            if (arr2[index],i+1) not in dp:dp[(arr2[index],i+1)]=self.dfs(i+1,arr1,arr2,arr2[index],dp)
+            dp[(prev,i)]=min(dp[(prev,i)],1+dp[(arr2[index],i+1)])
+        return dp[(prev,i)]
+        
+        
+        
+        
     def makeArrayIncreasing(self, arr1: List[int], arr2: List[int]) -> int:
         dp = {}
         arr2.sort()
+        res=self.dfs(0,arr1,arr2,-1,{})
+        return res if res<sys.maxsize else -1
         
-        def dfs(i, prev):
-            if i == len(arr1):
-                return 0
-            if (i, prev) in dp:
-                return dp[(i, prev)]
-
-            cost = float('inf')
-            
-            # If arr1[i] is already greater than prev, we can leave it be.
-            if arr1[i] > prev:
-                cost = dfs(i + 1, arr1[i])
-            
-            # Find a replacement with the smallest value in arr2.
-            idx = bisect.bisect_right(arr2, prev)
-            
-            # Replace arr1[i], with a cost of 1 operation.
-            if idx < len(arr2):
-                cost = min(cost, 1 + dfs(i + 1, arr2[idx]))
-
-            dp[(i, prev)] = cost
-            return cost
         
-        res = dfs(0, -1)
-        
-        return res if res < float('inf') else -1
