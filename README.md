@@ -22,8 +22,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3090-maximum-length-substring-with-two-occurrences](https://github.com/beingpandaa/Leetcode/tree/master/3090-maximum-length-substring-with-two-occurrences) |
+| [3471-find-the-largest-almost-missing-integer](https://github.com/beingpandaa/Leetcode/tree/master/3471-find-the-largest-almost-missing-integer) |
 ## Sliding Window
 |  |
 | ------- |
 | [3090-maximum-length-substring-with-two-occurrences](https://github.com/beingpandaa/Leetcode/tree/master/3090-maximum-length-substring-with-two-occurrences) |
+## Array
+|  |
+| ------- |
+| [3471-find-the-largest-almost-missing-integer](https://github.com/beingpandaa/Leetcode/tree/master/3471-find-the-largest-almost-missing-integer) |
 <!---LeetCode Topics End-->
