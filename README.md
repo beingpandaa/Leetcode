@@ -30,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0031-next-permutation](https://github.com/beingpandaa/Leetcode/tree/master/0031-next-permutation) |
 | [0704-binary-search](https://github.com/beingpandaa/Leetcode/tree/master/0704-binary-search) |
 | [2529-maximum-count-of-positive-integer-and-negative-integer](https://github.com/beingpandaa/Leetcode/tree/master/2529-maximum-count-of-positive-integer-and-negative-integer) |
 | [3069-distribute-elements-into-two-arrays-i](https://github.com/beingpandaa/Leetcode/tree/master/3069-distribute-elements-into-two-arrays-i) |
@@ -47,4 +48,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2529-maximum-count-of-positive-integer-and-negative-integer](https://github.com/beingpandaa/Leetcode/tree/master/2529-maximum-count-of-positive-integer-and-negative-integer) |
+## Two Pointers
+|  |
+| ------- |
+| [0031-next-permutation](https://github.com/beingpandaa/Leetcode/tree/master/0031-next-permutation) |
 <!---LeetCode Topics End-->
