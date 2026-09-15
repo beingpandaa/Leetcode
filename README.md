@@ -30,10 +30,15 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0704-binary-search](https://github.com/beingpandaa/Leetcode/tree/master/0704-binary-search) |
 | [3069-distribute-elements-into-two-arrays-i](https://github.com/beingpandaa/Leetcode/tree/master/3069-distribute-elements-into-two-arrays-i) |
 | [3471-find-the-largest-almost-missing-integer](https://github.com/beingpandaa/Leetcode/tree/master/3471-find-the-largest-almost-missing-integer) |
 ## Simulation
 |  |
 | ------- |
 | [3069-distribute-elements-into-two-arrays-i](https://github.com/beingpandaa/Leetcode/tree/master/3069-distribute-elements-into-two-arrays-i) |
+## Binary Search
+|  |
+| ------- |
+| [0704-binary-search](https://github.com/beingpandaa/Leetcode/tree/master/0704-binary-search) |
 <!---LeetCode Topics End-->
