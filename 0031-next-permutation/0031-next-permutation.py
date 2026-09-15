@@ -1,23 +1,33 @@
 class Solution:
+    def reverseArray(self,nums,start):
+        end = len(nums)-1
+        while start<end:
+            nums[start]+=nums[end]
+            nums[end]=nums[start]-nums[end]
+            nums[start]-=nums[end]
+            start+=1
+            end -=1
+
+
+    def findJustGreater(self,left,nums,target):
+        right = len(nums)-1
+        while left<=right:
+            mid = left+(right-left)//2
+            if nums[mid]<=target:
+                right = mid-1
+            else:
+                left = mid+1
+        return right 
+
     def nextPermutation(self, nums: List[int]) -> None:
-        """
-        Do not return anything, modify nums in-place instead.
-        """
-        def reverse(nums,i,j):
-            while i<j:
-                nums[i],nums[j]=nums[j],nums[i]
-                i+=1
-                j-=1
+        for i in range(len(nums)-1,0,-1):
+            if nums[i-1]<nums[i]:
+                JustGreaterIndex = self.findJustGreater(i,nums,nums[i-1])
+                nums[i-1],nums[JustGreaterIndex] = nums[JustGreaterIndex], nums[i-1]
+                self.reverseArray(nums,i)
+                return nums
+        self.reverseArray(nums,0)
+        return nums
+
                 
-        i=len(nums)-1
-        while i-1>=0 and nums[i-1]>=nums[i]:
-            i-=1
-        reverse(nums,i,len(nums)-1)
-        if i!=0:
-            index=i-1
-            for i in range(i,len(nums)):
-                if nums[i]>nums[index]:
-                    nums[index],nums[i]=nums[i],nums[index]
-                    break
-            
-        
+                
