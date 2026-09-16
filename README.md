@@ -37,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0075-sort-colors](https://github.com/beingpandaa/Leetcode/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/beingpandaa/Leetcode/tree/master/0088-merge-sorted-array) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/beingpandaa/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0287-find-the-duplicate-number](https://github.com/beingpandaa/Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0704-binary-search](https://github.com/beingpandaa/Leetcode/tree/master/0704-binary-search) |
 | [2529-maximum-count-of-positive-integer-and-negative-integer](https://github.com/beingpandaa/Leetcode/tree/master/2529-maximum-count-of-positive-integer-and-negative-integer) |
 | [3069-distribute-elements-into-two-arrays-i](https://github.com/beingpandaa/Leetcode/tree/master/3069-distribute-elements-into-two-arrays-i) |
@@ -48,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search
 |  |
 | ------- |
+| [0287-find-the-duplicate-number](https://github.com/beingpandaa/Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0704-binary-search](https://github.com/beingpandaa/Leetcode/tree/master/0704-binary-search) |
 | [2529-maximum-count-of-positive-integer-and-negative-integer](https://github.com/beingpandaa/Leetcode/tree/master/2529-maximum-count-of-positive-integer-and-negative-integer) |
 ## Counting
@@ -60,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0031-next-permutation](https://github.com/beingpandaa/Leetcode/tree/master/0031-next-permutation) |
 | [0075-sort-colors](https://github.com/beingpandaa/Leetcode/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/beingpandaa/Leetcode/tree/master/0088-merge-sorted-array) |
+| [0287-find-the-duplicate-number](https://github.com/beingpandaa/Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/beingpandaa/Leetcode/tree/master/2472-maximum-number-of-non-overlapping-palindrome-substrings) |
 ## Dynamic Programming
 |  |
@@ -90,4 +93,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/beingpandaa/Leetcode/tree/master/0075-sort-colors) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0287-find-the-duplicate-number](https://github.com/beingpandaa/Leetcode/tree/master/0287-find-the-duplicate-number) |
+## Pigeonhole Principle
+|  |
+| ------- |
+| [0287-find-the-duplicate-number](https://github.com/beingpandaa/Leetcode/tree/master/0287-find-the-duplicate-number) |
+## Floyd's Cycle Finding Algorithm
+|  |
+| ------- |
+| [0287-find-the-duplicate-number](https://github.com/beingpandaa/Leetcode/tree/master/0287-find-the-duplicate-number) |
 <!---LeetCode Topics End-->
