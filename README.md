@@ -35,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/beingpandaa/Leetcode/tree/master/0053-maximum-subarray) |
 | [0056-merge-intervals](https://github.com/beingpandaa/Leetcode/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/beingpandaa/Leetcode/tree/master/0075-sort-colors) |
+| [0088-merge-sorted-array](https://github.com/beingpandaa/Leetcode/tree/master/0088-merge-sorted-array) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/beingpandaa/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0704-binary-search](https://github.com/beingpandaa/Leetcode/tree/master/0704-binary-search) |
 | [2529-maximum-count-of-positive-integer-and-negative-integer](https://github.com/beingpandaa/Leetcode/tree/master/2529-maximum-count-of-positive-integer-and-negative-integer) |
@@ -58,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0031-next-permutation](https://github.com/beingpandaa/Leetcode/tree/master/0031-next-permutation) |
 | [0075-sort-colors](https://github.com/beingpandaa/Leetcode/tree/master/0075-sort-colors) |
+| [0088-merge-sorted-array](https://github.com/beingpandaa/Leetcode/tree/master/0088-merge-sorted-array) |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/beingpandaa/Leetcode/tree/master/2472-maximum-number-of-non-overlapping-palindrome-substrings) |
 ## Dynamic Programming
 |  |
@@ -78,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0056-merge-intervals](https://github.com/beingpandaa/Leetcode/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/beingpandaa/Leetcode/tree/master/0075-sort-colors) |
+| [0088-merge-sorted-array](https://github.com/beingpandaa/Leetcode/tree/master/0088-merge-sorted-array) |
 ## Quicksort
 |  |
 | ------- |
