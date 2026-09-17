@@ -9,7 +9,7 @@ class Solution:
             if rem == 0 : 
                 if d.get(prefixRem,0)>1: return True
             else:
-                if prefixRem == 0 or prefixRem in d: return True
+                if prefixRem in d: return True
             d[prefixRem] = d.get(prefixRem,0)+1
         return False
 
