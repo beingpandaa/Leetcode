@@ -1,16 +1,11 @@
 class Solution:
     def subarraySum(self, nums: List[int], k: int) -> int:
-        d={}
-        prev=0
-        count=0
-        for ele in nums:
-            ele+=prev
-            prev=ele
-            if ele==k:
-                count+=1
-            if ele-k in d:
-                count+=d[ele-k]
-            d[ele]=d.get(ele,0)+1
-        return count
-            
-            
+        d = {0:1}
+        count = 0
+        for i in range(len(nums)):
+            if i >0:
+                nums[i]+=nums[i-1]
+            if nums[i]-k in d:
+                count +=d[nums[i]-k]
+            d[nums[i]] = d.get(nums[i],0)+1
+        return count 
