@@ -1,21 +1,22 @@
 class Solution:
     def maxProduct(self, nums: list[int]) -> int:
-        curr,maxProd = 1,-sys.maxsize
+        currL,currR,maxProd = 1,1,-sys.maxsize
         for i in range(len(nums)):
+            len(nums)-i-1
             if nums[i] ==0:
-                curr = 1
+                currL = 1
                 maxProd=max(maxProd,0)
             else:
-                curr*=nums[i]
-                maxProd=max(maxProd,curr)
-        curr = 1
-        for i in range(len(nums)-1,-1,-1):
-            if nums[i] ==0:
-                curr = 1
+                currL*=nums[i]
+                maxProd=max(maxProd,currL)
+
+            if nums[len(nums)-i-1] ==0:
+                currR = 1
                 maxProd=max(maxProd,0)
             else:
-                curr*=nums[i]
-                maxProd=max(maxProd,curr) 
+                currR*=nums[len(nums)-i-1]
+                maxProd=max(maxProd,currR)
+
         return maxProd
 
                 
