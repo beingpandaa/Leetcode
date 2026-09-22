@@ -1,38 +1,34 @@
 class Solution:
-    def fourSum(self, nums: List[int], target: int) -> List[List[int]]:
-        
-        def twoSome(low,x,y):
-            tar=target-x-y
-            high=len(nums)-1
-            while low<high:
-                if nums[low]+nums[high]<tar:
-                    while low<high and nums[low]==nums[low+1]:
-                        low+=1
-                    low+=1
-                elif  nums[low]+nums[high]>tar:
-                    while low<high and nums[high]==nums[high-1]:
-                        high-=1
-                    high-=1
-                else:
-                    li.append([x,y,nums[low],nums[high]])
-                    while low<high and nums[low]==nums[low+1]:
-                        low+=1
-                    low+=1
-                    while low<high and nums[high]==nums[high-1]:
-                        high-=1
-                    high-=1
-                    
-        nums.sort()
-        li=[]
-        i=0
-        while i < len(nums)-3:
-            j=i+1
-            while j<len(nums)-2:
-                twoSome(j+1,nums[i],nums[j])
-                while j+1<len(nums)-2 and nums[j+1]==nums[j]:
-                    j+=1
-                j+=1
-            while i+1<len(nums)-2 and nums[i+1]==nums[i]:
+    def twoSum(self,nums,i,target):
+        j = len(nums)-1
+        op = []
+        while i <j:
+            
+
+            curr = nums[i]+nums[j]
+            if curr>target:
+                j-=1
+            elif curr<target:
                 i+=1
-            i+=1
-        return li
+            else:
+                op.append([nums[i],nums[j]])
+                while i<j and nums[i+1]==nums[i]:i+=1
+                while i<j and nums[j-1]==nums[j]:j-=1
+                i+=1
+                j-=1
+        return op
+
+    def fourSum(self, nums: list[int], target: int) -> list[list[int]]:
+        nums.sort()
+        res = []
+        for i in range(len(nums)-3):
+            if i>0 and nums[i-1]==nums[i]:continue
+            else:
+                for j in range(i+1,len(nums)-2):
+                    if j>i+1 and nums[j-1]==nums[j]:
+                        continue
+                    else:
+                        op = self.twoSum(nums,j+1,target-nums[i]-nums[j])
+                        for ele in op :
+                            res.append([nums[i],nums[j],ele[0],ele[1]])
+        return res
