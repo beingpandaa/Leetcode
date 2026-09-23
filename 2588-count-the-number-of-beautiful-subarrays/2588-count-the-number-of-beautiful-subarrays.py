@@ -5,7 +5,10 @@ class Solution:
         count = 0 
         for ele in nums:
             curr = curr^ele
-            d[curr] = d.get(curr,0) + 1
-            count += d[curr]-1
+            if curr not in d :
+                d[curr] = 1
+            else:
+                count += d[curr]
+                d[curr] += 1
         return count
 
