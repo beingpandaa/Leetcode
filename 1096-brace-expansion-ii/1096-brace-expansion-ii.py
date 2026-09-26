@@ -1,31 +1,22 @@
 class Solution:
     def braceExpansionII(self, expression: str) -> list[str]:
-        i = 0
-        n = len(expression)
+        stack = []
+        union = set()
+        product = {""}
 
-        def parse():
-            nonlocal i
-            union = set()
-            product = {""}
+        for char in expression:
+            if char == "{":
+                stack.append((union, product))
+                union = set()
+                product = {""}
+            elif char == ",":
+                union |= product
+                product = {""}
+            elif char == "}":
+                factor = union | product
+                union, left = stack.pop()
+                product = {a + b for a in left for b in factor}
+            else:
+                product = {word + char for word in product}
 
-            while i < n and expression[i] != "}":
-                if expression[i] == ",":
-                    union |= product
-                    product = {""}
-                    i += 1
-                else:
-                    if expression[i] == "{":
-                        i += 1
-                        factor = parse()
-                        i += 1
-                    else:
-                        start = i
-                        while i < n and expression[i].isalpha():
-                            i += 1
-                        factor = {expression[start:i]}
-
-                    product = {left + right for left in product for right in factor}
-
-            return union | product
-
-        return sorted(parse())
+        return sorted(union | product)
