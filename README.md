@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/beingpandaa/Leetcode/tree/master/0001-two-sum) |
 | [0128-longest-consecutive-sequence](https://github.com/beingpandaa/Leetcode/tree/master/0128-longest-consecutive-sequence) |
+| [0160-intersection-of-two-linked-lists](https://github.com/beingpandaa/Leetcode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0169-majority-element](https://github.com/beingpandaa/Leetcode/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/beingpandaa/Leetcode/tree/master/0229-majority-element-ii) |
 | [0523-continuous-subarray-sum](https://github.com/beingpandaa/Leetcode/tree/master/0523-continuous-subarray-sum) |
@@ -102,6 +103,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0031-next-permutation](https://github.com/beingpandaa/Leetcode/tree/master/0031-next-permutation) |
 | [0075-sort-colors](https://github.com/beingpandaa/Leetcode/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/beingpandaa/Leetcode/tree/master/0088-merge-sorted-array) |
+| [0160-intersection-of-two-linked-lists](https://github.com/beingpandaa/Leetcode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0287-find-the-duplicate-number](https://github.com/beingpandaa/Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0876-middle-of-the-linked-list](https://github.com/beingpandaa/Leetcode/tree/master/0876-middle-of-the-linked-list) |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/beingpandaa/Leetcode/tree/master/2472-maximum-number-of-non-overlapping-palindrome-substrings) |
@@ -206,5 +208,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Linked List
 |  |
 | ------- |
+| [0160-intersection-of-two-linked-lists](https://github.com/beingpandaa/Leetcode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0876-middle-of-the-linked-list](https://github.com/beingpandaa/Leetcode/tree/master/0876-middle-of-the-linked-list) |
 <!---LeetCode Topics End-->
