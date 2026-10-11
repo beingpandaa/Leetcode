@@ -76,6 +76,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/beingpandaa/Leetcode/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
 | [2529-maximum-count-of-positive-integer-and-negative-integer](https://github.com/beingpandaa/Leetcode/tree/master/2529-maximum-count-of-positive-integer-and-negative-integer) |
 | [2588-count-the-number-of-beautiful-subarrays](https://github.com/beingpandaa/Leetcode/tree/master/2588-count-the-number-of-beautiful-subarrays) |
+| [2778-sum-of-squares-of-special-elements](https://github.com/beingpandaa/Leetcode/tree/master/2778-sum-of-squares-of-special-elements) |
 | [3069-distribute-elements-into-two-arrays-i](https://github.com/beingpandaa/Leetcode/tree/master/3069-distribute-elements-into-two-arrays-i) |
 | [3471-find-the-largest-almost-missing-integer](https://github.com/beingpandaa/Leetcode/tree/master/3471-find-the-largest-almost-missing-integer) |
 | [3550-smallest-index-with-digit-sum-equal-to-index](https://github.com/beingpandaa/Leetcode/tree/master/3550-smallest-index-with-digit-sum-equal-to-index) |
@@ -258,4 +259,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/beingpandaa/Leetcode/tree/master/0023-merge-k-sorted-lists) |
+## Enumeration
+|  |
+| ------- |
+| [2778-sum-of-squares-of-special-elements](https://github.com/beingpandaa/Leetcode/tree/master/2778-sum-of-squares-of-special-elements) |
 <!---LeetCode Topics End-->
