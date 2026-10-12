@@ -1,6 +1,6 @@
 class Solution:
     def isSafe(self, board, row, col, n):
-        for i in range(n):
+        for i in range(row):
             if board[i][col] == 'Q':
                 return False
         i, j = row, col
