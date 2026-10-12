@@ -1,33 +1,23 @@
 class Solution:
-    def exist(self, board: List[List[str]], word: str) -> bool:
-        
-        
-        def dfs(i,j,itr=0):
-            if i<0 or i==m or j<0 or j==n or board[i][j]!=word[itr]:
-                return False
-            if itr==len(word)-1:
-                return True 
-            ele=board[i][j]
-            board[i][j]='0'
-            ans1=dfs(i+1,j,itr+1)
-            ans2=dfs(i,j+1,itr+1)
-            ans3=dfs(i-1,j,itr+1)
-            ans4=dfs(i,j-1,itr+1)
-            board[i][j]=ele
-            
-            
-            return ans1 or ans2 or ans3 or ans4
-        
-        m=len(board)
-        n=len(board[0])
-        for i in range(m):
-            for j in range(n):
+    def searchWord(self,board,word,i=0,j=0,index=0):
+        if index == len(word):return True
+        if i<0 or i==len(board) or j<0 or j==len(board[0]) or board[i][j]=="*" or board[i][j]!=word[index]: return False
+        temp = board[i][j] 
+        board[i][j]="*"
+        op1 = self.searchWord(board,word,i+1,j,index+1)
+        op2 = self.searchWord(board,word,i-1,j,index+1)
+        op3 = self.searchWord(board,word,i,j+1,index+1)
+        op4 = self.searchWord(board,word,i,j-1,index+1)
+        board[i][j] =temp
+        return op1 or op2 or op3 or op4
+
+    def exist(self, board: list[list[str]], word: str) -> bool:
+
+        for i in range(len(board)):
+            for j in range(len(board[0])):
                 if board[i][j]==word[0]:
-                    if dfs(i,j):
+                     if self.searchWord(board,word,i,j)==True:
                         print(i,j)
                         return True
-        return False
-        
-        
-            
+        return False 
         
