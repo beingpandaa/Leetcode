@@ -1,10 +1,10 @@
 class Solution:
 
     def getCombinations(self,res,candidates,target,i=0,sol=[]):
-        if i == len(candidates):
-            if target == 0 :
+        if target == 0 :
                 res.append(sol[:])
-            return
+                return
+        if i == len(candidates):return
 
         if candidates[i] <= target:
             sol.append(candidates[i])
