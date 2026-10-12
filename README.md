@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0017-letter-combinations-of-a-phone-number](https://github.com/beingpandaa/Leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0020-valid-parentheses](https://github.com/beingpandaa/Leetcode/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/beingpandaa/Leetcode/tree/master/0022-generate-parentheses) |
+| [0079-word-search](https://github.com/beingpandaa/Leetcode/tree/master/0079-word-search) |
 | [0131-palindrome-partitioning](https://github.com/beingpandaa/Leetcode/tree/master/0131-palindrome-partitioning) |
 | [1071-greatest-common-divisor-of-strings](https://github.com/beingpandaa/Leetcode/tree/master/1071-greatest-common-divisor-of-strings) |
 | [1096-brace-expansion-ii](https://github.com/beingpandaa/Leetcode/tree/master/1096-brace-expansion-ii) |
@@ -67,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0056-merge-intervals](https://github.com/beingpandaa/Leetcode/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/beingpandaa/Leetcode/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/beingpandaa/Leetcode/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/beingpandaa/Leetcode/tree/master/0079-word-search) |
 | [0088-merge-sorted-array](https://github.com/beingpandaa/Leetcode/tree/master/0088-merge-sorted-array) |
 | [0090-subsets-ii](https://github.com/beingpandaa/Leetcode/tree/master/0090-subsets-ii) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/beingpandaa/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -208,6 +210,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0039-combination-sum](https://github.com/beingpandaa/Leetcode/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/beingpandaa/Leetcode/tree/master/0040-combination-sum-ii) |
 | [0078-subsets](https://github.com/beingpandaa/Leetcode/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/beingpandaa/Leetcode/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/beingpandaa/Leetcode/tree/master/0090-subsets-ii) |
 | [0131-palindrome-partitioning](https://github.com/beingpandaa/Leetcode/tree/master/0131-palindrome-partitioning) |
 | [1096-brace-expansion-ii](https://github.com/beingpandaa/Leetcode/tree/master/1096-brace-expansion-ii) |
@@ -236,6 +239,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0079-word-search](https://github.com/beingpandaa/Leetcode/tree/master/0079-word-search) |
 | [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/beingpandaa/Leetcode/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
 ## Linked List
 |  |
@@ -279,4 +283,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2778-sum-of-squares-of-special-elements](https://github.com/beingpandaa/Leetcode/tree/master/2778-sum-of-squares-of-special-elements) |
+## Depth-First Search
+|  |
+| ------- |
+| [0079-word-search](https://github.com/beingpandaa/Leetcode/tree/master/0079-word-search) |
 <!---LeetCode Topics End-->
