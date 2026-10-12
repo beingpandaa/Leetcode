@@ -61,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/beingpandaa/Leetcode/tree/master/0053-maximum-subarray) |
 | [0056-merge-intervals](https://github.com/beingpandaa/Leetcode/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/beingpandaa/Leetcode/tree/master/0075-sort-colors) |
+| [0078-subsets](https://github.com/beingpandaa/Leetcode/tree/master/0078-subsets) |
 | [0088-merge-sorted-array](https://github.com/beingpandaa/Leetcode/tree/master/0088-merge-sorted-array) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/beingpandaa/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0128-longest-consecutive-sequence](https://github.com/beingpandaa/Leetcode/tree/master/0128-longest-consecutive-sequence) |
@@ -161,6 +162,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0078-subsets](https://github.com/beingpandaa/Leetcode/tree/master/0078-subsets) |
 | [0287-find-the-duplicate-number](https://github.com/beingpandaa/Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [2588-count-the-number-of-beautiful-subarrays](https://github.com/beingpandaa/Leetcode/tree/master/2588-count-the-number-of-beautiful-subarrays) |
 ## Pigeonhole Principle
@@ -194,6 +196,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/beingpandaa/Leetcode/tree/master/0022-generate-parentheses) |
+| [0078-subsets](https://github.com/beingpandaa/Leetcode/tree/master/0078-subsets) |
 | [1096-brace-expansion-ii](https://github.com/beingpandaa/Leetcode/tree/master/1096-brace-expansion-ii) |
 ## Stack
 |  |
