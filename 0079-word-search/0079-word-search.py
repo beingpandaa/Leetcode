@@ -1,3 +1,4 @@
+from functools import cache
 class Solution:
     def searchWord(self,board,word,i=0,j=0,index=0):
         if index == len(word):return True
