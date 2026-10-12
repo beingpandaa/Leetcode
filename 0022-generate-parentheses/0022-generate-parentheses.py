@@ -1,21 +1,22 @@
 class Solution:
+    def getParenthesis(self,res,openB,closeB,curr = []):
+        if not openB and not closeB:
+            s = "".join(curr)
+            res.append(s)
+            return
+        if openB>0:
+            curr.append("(")
+            self.getParenthesis(res,openB-1,closeB,curr)
+            curr.pop()
+        if closeB > openB:
+            curr.append(")")
+            self.getParenthesis(res,openB,closeB-1,curr)
+            curr.pop()
+
     def generateParenthesis(self, n: int) -> list[str]:
-        if n == 1: return ["()"]
-
-        n -= 1
         res = []
-
-        def dfs(O, C, s):
-            if not O and not C:
-                res.append(s + ")")
-                return
-
-            if O > 0:
-                dfs(O - 1, C, s + "(")
-
-            if C >= O:
-                dfs(O, C - 1, s + ")")
-
-        dfs(n, n, "(")
-
+        self.getParenthesis(res,n,n)
         return res
+
+
+        
