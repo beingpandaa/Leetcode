@@ -90,6 +90,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3069-distribute-elements-into-two-arrays-i](https://github.com/beingpandaa/Leetcode/tree/master/3069-distribute-elements-into-two-arrays-i) |
 | [3471-find-the-largest-almost-missing-integer](https://github.com/beingpandaa/Leetcode/tree/master/3471-find-the-largest-almost-missing-integer) |
 | [3550-smallest-index-with-digit-sum-equal-to-index](https://github.com/beingpandaa/Leetcode/tree/master/3550-smallest-index-with-digit-sum-equal-to-index) |
+| [3727-maximum-alternating-sum-of-squares](https://github.com/beingpandaa/Leetcode/tree/master/3727-maximum-alternating-sum-of-squares) |
 ## Simulation
 |  |
 | ------- |
@@ -141,6 +142,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/beingpandaa/Leetcode/tree/master/2472-maximum-number-of-non-overlapping-palindrome-substrings) |
+| [3727-maximum-alternating-sum-of-squares](https://github.com/beingpandaa/Leetcode/tree/master/3727-maximum-alternating-sum-of-squares) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -160,6 +162,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/beingpandaa/Leetcode/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/beingpandaa/Leetcode/tree/master/0229-majority-element-ii) |
 | [1096-brace-expansion-ii](https://github.com/beingpandaa/Leetcode/tree/master/1096-brace-expansion-ii) |
+| [3727-maximum-alternating-sum-of-squares](https://github.com/beingpandaa/Leetcode/tree/master/3727-maximum-alternating-sum-of-squares) |
 ## Quicksort
 |  |
 | ------- |
