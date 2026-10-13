@@ -4,10 +4,8 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
-        for i in range(len(nums)):
-            nums[i]=abs(nums[i])
         score = 0
-        nums.sort()
+        nums = sorted(nums, key=abs)
         i,j=0,len(nums)-1
         while i<=j:
             if i==j:
