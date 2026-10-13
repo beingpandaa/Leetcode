@@ -7,14 +7,8 @@ class Solution(object):
         score = 0
         for i in range(len(nums)):nums[i]=nums[i]**2
         nums.sort()
-        i,j=0,len(nums)-1
-        while i<=j:
-            if i==j:
-                score+=nums[i]
-            else:
-                score+=(nums[j])-(nums[i])
-            i+=1
-            j-=1
-        return score
+        mid_index = len(nums)//2
+        return sum(nums[mid_index:])-sum(nums[:mid_index])
+      
         
         
