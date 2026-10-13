@@ -4,15 +4,17 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
-        squared = [x**2 for x in nums]
-        sorted_nums = sorted(squared)
-        len_neg = len(nums)//2
-        len_pos = len(nums) - len_neg
-        
-        pos = sorted_nums[-len_pos:]
-        neg = sorted_nums[:len_neg]
-        
-        
-        return sum(pos)-sum(neg)
+        score = 0
+        for i in range(len(nums)):nums[i]=nums[i]**2
+        nums.sort()
+        i,j=0,len(nums)-1
+        while i<=j:
+            if i==j:
+                score+=nums[i]
+            else:
+                score+=(nums[j])-(nums[i])
+            i+=1
+            j-=1
+        return score
         
         
