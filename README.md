@@ -86,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0162-find-peak-element](https://github.com/beingpandaa/Leetcode/tree/master/0162-find-peak-element) |
 | [0169-majority-element](https://github.com/beingpandaa/Leetcode/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/beingpandaa/Leetcode/tree/master/0229-majority-element-ii) |
+| [0240-search-a-2d-matrix-ii](https://github.com/beingpandaa/Leetcode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0287-find-the-duplicate-number](https://github.com/beingpandaa/Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0523-continuous-subarray-sum](https://github.com/beingpandaa/Leetcode/tree/master/0523-continuous-subarray-sum) |
 | [0540-single-element-in-a-sorted-array](https://github.com/beingpandaa/Leetcode/tree/master/0540-single-element-in-a-sorted-array) |
@@ -116,6 +117,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/beingpandaa/Leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/beingpandaa/Leetcode/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
 | [0162-find-peak-element](https://github.com/beingpandaa/Leetcode/tree/master/0162-find-peak-element) |
+| [0240-search-a-2d-matrix-ii](https://github.com/beingpandaa/Leetcode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0287-find-the-duplicate-number](https://github.com/beingpandaa/Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0540-single-element-in-a-sorted-array](https://github.com/beingpandaa/Leetcode/tree/master/0540-single-element-in-a-sorted-array) |
 | [0704-binary-search](https://github.com/beingpandaa/Leetcode/tree/master/0704-binary-search) |
@@ -168,6 +170,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/beingpandaa/Leetcode/tree/master/0053-maximum-subarray) |
 | [0148-sort-list](https://github.com/beingpandaa/Leetcode/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/beingpandaa/Leetcode/tree/master/0169-majority-element) |
+| [0240-search-a-2d-matrix-ii](https://github.com/beingpandaa/Leetcode/tree/master/0240-search-a-2d-matrix-ii) |
 ## Sorting
 |  |
 | ------- |
@@ -270,6 +273,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0079-word-search](https://github.com/beingpandaa/Leetcode/tree/master/0079-word-search) |
+| [0240-search-a-2d-matrix-ii](https://github.com/beingpandaa/Leetcode/tree/master/0240-search-a-2d-matrix-ii) |
 | [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/beingpandaa/Leetcode/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
 ## Linked List
 |  |
