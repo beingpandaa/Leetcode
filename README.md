@@ -65,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0018-4sum](https://github.com/beingpandaa/Leetcode/tree/master/0018-4sum) |
 | [0031-next-permutation](https://github.com/beingpandaa/Leetcode/tree/master/0031-next-permutation) |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/beingpandaa/Leetcode/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
+| [0035-search-insert-position](https://github.com/beingpandaa/Leetcode/tree/master/0035-search-insert-position) |
 | [0039-combination-sum](https://github.com/beingpandaa/Leetcode/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/beingpandaa/Leetcode/tree/master/0040-combination-sum-ii) |
 | [0051-n-queens](https://github.com/beingpandaa/Leetcode/tree/master/0051-n-queens) |
@@ -104,6 +105,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/beingpandaa/Leetcode/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
+| [0035-search-insert-position](https://github.com/beingpandaa/Leetcode/tree/master/0035-search-insert-position) |
 | [0162-find-peak-element](https://github.com/beingpandaa/Leetcode/tree/master/0162-find-peak-element) |
 | [0287-find-the-duplicate-number](https://github.com/beingpandaa/Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0704-binary-search](https://github.com/beingpandaa/Leetcode/tree/master/0704-binary-search) |
