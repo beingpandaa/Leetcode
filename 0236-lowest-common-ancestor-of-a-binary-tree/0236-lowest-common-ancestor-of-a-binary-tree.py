@@ -16,11 +16,12 @@ class Solution(object):
 
         left  = self.setLCA(root.left,p,q)
         right = self.setLCA(root.right,p,q)
-
-        curr = root == p or root == q
-        if left + right + curr ==2:
-            self.ans = root
-        return left or right or curr
+        if not self.ans:
+            curr = root == p or root == q
+            if left + right + curr ==2:
+                self.ans = root
+            return left or right or curr
+        return True
 
 
 
