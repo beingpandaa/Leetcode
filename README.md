@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/beingpandaa/Leetcode/tree/master/0002-add-two-numbers) |
+| [0069-sqrtx](https://github.com/beingpandaa/Leetcode/tree/master/0069-sqrtx) |
 | [0523-continuous-subarray-sum](https://github.com/beingpandaa/Leetcode/tree/master/0523-continuous-subarray-sum) |
 | [1071-greatest-common-divisor-of-strings](https://github.com/beingpandaa/Leetcode/tree/master/1071-greatest-common-divisor-of-strings) |
 | [3550-smallest-index-with-digit-sum-equal-to-index](https://github.com/beingpandaa/Leetcode/tree/master/3550-smallest-index-with-digit-sum-equal-to-index) |
@@ -113,6 +114,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0033-search-in-rotated-sorted-array](https://github.com/beingpandaa/Leetcode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/beingpandaa/Leetcode/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0035-search-insert-position](https://github.com/beingpandaa/Leetcode/tree/master/0035-search-insert-position) |
+| [0069-sqrtx](https://github.com/beingpandaa/Leetcode/tree/master/0069-sqrtx) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/beingpandaa/Leetcode/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/beingpandaa/Leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/beingpandaa/Leetcode/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
@@ -363,4 +365,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/beingpandaa/Leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+## Newton's Method
+|  |
+| ------- |
+| [0069-sqrtx](https://github.com/beingpandaa/Leetcode/tree/master/0069-sqrtx) |
 <!---LeetCode Topics End-->
