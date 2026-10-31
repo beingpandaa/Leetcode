@@ -1,5 +1,5 @@
 class Solution:
-    def getIntersectionNode(self, headA: ListNode, headB: ListNode) -> Optional[ListNode]:
+    def getIntersectionNode(self, headA, headB):
         a = headA
         b = headB
         while a and b:
