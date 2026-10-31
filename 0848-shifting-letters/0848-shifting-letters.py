@@ -4,7 +4,7 @@ class Solution:
             shifts[i]+=shifts[i+1]
         s=list(s)
         for i in range(len(s)):
-            position = ord(s[i]) - ord('a')
-            shifted = (position + shifts[i]) % 26
-            s[i] = chr(ord('a') + shifted)
+            total = ord(s[i]) + shifts[i]
+            
+            s[i] = chr(ord('a')+(total-ord('a'))%26)
         return ''.join(s)
