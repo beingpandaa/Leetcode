@@ -96,6 +96,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0560-subarray-sum-equals-k](https://github.com/beingpandaa/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0704-binary-search](https://github.com/beingpandaa/Leetcode/tree/master/0704-binary-search) |
 | [0875-koko-eating-bananas](https://github.com/beingpandaa/Leetcode/tree/master/0875-koko-eating-bananas) |
+| [1262-greatest-sum-divisible-by-three](https://github.com/beingpandaa/Leetcode/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/beingpandaa/Leetcode/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [2089-find-target-indices-after-sorting-array](https://github.com/beingpandaa/Leetcode/tree/master/2089-find-target-indices-after-sorting-array) |
 | [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/beingpandaa/Leetcode/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
@@ -162,11 +163,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/beingpandaa/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0131-palindrome-partitioning](https://github.com/beingpandaa/Leetcode/tree/master/0131-palindrome-partitioning) |
 | [0152-maximum-product-subarray](https://github.com/beingpandaa/Leetcode/tree/master/0152-maximum-product-subarray) |
+| [1262-greatest-sum-divisible-by-three](https://github.com/beingpandaa/Leetcode/tree/master/1262-greatest-sum-divisible-by-three) |
 | [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/beingpandaa/Leetcode/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/beingpandaa/Leetcode/tree/master/2472-maximum-number-of-non-overlapping-palindrome-substrings) |
 ## Greedy
 |  |
 | ------- |
+| [1262-greatest-sum-divisible-by-three](https://github.com/beingpandaa/Leetcode/tree/master/1262-greatest-sum-divisible-by-three) |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/beingpandaa/Leetcode/tree/master/2472-maximum-number-of-non-overlapping-palindrome-substrings) |
 | [3727-maximum-alternating-sum-of-squares](https://github.com/beingpandaa/Leetcode/tree/master/3727-maximum-alternating-sum-of-squares) |
 ## Divide and Conquer
@@ -190,6 +193,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0229-majority-element-ii](https://github.com/beingpandaa/Leetcode/tree/master/0229-majority-element-ii) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/beingpandaa/Leetcode/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1096-brace-expansion-ii](https://github.com/beingpandaa/Leetcode/tree/master/1096-brace-expansion-ii) |
+| [1262-greatest-sum-divisible-by-three](https://github.com/beingpandaa/Leetcode/tree/master/1262-greatest-sum-divisible-by-three) |
 | [2089-find-target-indices-after-sorting-array](https://github.com/beingpandaa/Leetcode/tree/master/2089-find-target-indices-after-sorting-array) |
 | [3727-maximum-alternating-sum-of-squares](https://github.com/beingpandaa/Leetcode/tree/master/3727-maximum-alternating-sum-of-squares) |
 ## Quicksort
