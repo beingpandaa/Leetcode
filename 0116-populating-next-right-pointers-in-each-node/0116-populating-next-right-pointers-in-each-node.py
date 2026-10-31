@@ -10,8 +10,9 @@ class Node:
 
 class Solution:
     def connect(self, root: 'Optional[Node]') -> 'Optional[Node]':
-        q = deque([root])
         
+        q = deque([])
+        if root:q.append(root)
         while q:
             prev = None
             for i in range(len(q)):
@@ -22,6 +23,6 @@ class Solution:
                 if node and node.left and node.right: 
                     q.append(node.left)
                     q.append(node.right)
-            if prev: prev.next = None
+            node.next = None
         return root
 
