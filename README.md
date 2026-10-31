@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0022-generate-parentheses](https://github.com/beingpandaa/Leetcode/tree/master/0022-generate-parentheses) |
 | [0079-word-search](https://github.com/beingpandaa/Leetcode/tree/master/0079-word-search) |
 | [0131-palindrome-partitioning](https://github.com/beingpandaa/Leetcode/tree/master/0131-palindrome-partitioning) |
+| [0848-shifting-letters](https://github.com/beingpandaa/Leetcode/tree/master/0848-shifting-letters) |
 | [1071-greatest-common-divisor-of-strings](https://github.com/beingpandaa/Leetcode/tree/master/1071-greatest-common-divisor-of-strings) |
 | [1096-brace-expansion-ii](https://github.com/beingpandaa/Leetcode/tree/master/1096-brace-expansion-ii) |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/beingpandaa/Leetcode/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
@@ -95,6 +96,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0540-single-element-in-a-sorted-array](https://github.com/beingpandaa/Leetcode/tree/master/0540-single-element-in-a-sorted-array) |
 | [0560-subarray-sum-equals-k](https://github.com/beingpandaa/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0704-binary-search](https://github.com/beingpandaa/Leetcode/tree/master/0704-binary-search) |
+| [0848-shifting-letters](https://github.com/beingpandaa/Leetcode/tree/master/0848-shifting-letters) |
 | [0875-koko-eating-bananas](https://github.com/beingpandaa/Leetcode/tree/master/0875-koko-eating-bananas) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/beingpandaa/Leetcode/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/beingpandaa/Leetcode/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
@@ -229,6 +231,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0523-continuous-subarray-sum](https://github.com/beingpandaa/Leetcode/tree/master/0523-continuous-subarray-sum) |
 | [0525-contiguous-array](https://github.com/beingpandaa/Leetcode/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/beingpandaa/Leetcode/tree/master/0560-subarray-sum-equals-k) |
+| [0848-shifting-letters](https://github.com/beingpandaa/Leetcode/tree/master/0848-shifting-letters) |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/beingpandaa/Leetcode/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [2588-count-the-number-of-beautiful-subarrays](https://github.com/beingpandaa/Leetcode/tree/master/2588-count-the-number-of-beautiful-subarrays) |
 ## Boyer–Moore Majority Vote Algorithm
