@@ -1,8 +1,3 @@
-# Definition for singly-linked list.
-# class ListNode:
-#     def __init__(self, val=0, next=None):
-#         self.val = val
-#         self.next = next
 class Solution:
     def merge(self,head1,head2):
         dummy = ListNode()
@@ -17,12 +12,11 @@ class Solution:
             curr = curr.next
         curr.next = head1 or head2
         return dummy.next
+        
     def mergeKLists(self, lists: list[ListNode | None]) -> ListNode | None:
-        if not lists:
-            return None
-        if len(lists) == 1:
-            return lists[0]
-        mid = len(lists) // 2
-        left = self.mergeKLists(lists[:mid])
-        right = self.mergeKLists(lists[mid:])
-        return self.merge(left, right)
+        if not lists: return None 
+        if len(lists)==1: return lists[0]
+        mid = len(lists)//2
+        left = lists[:mid]
+        right = lists[mid:]
+        return self.merge(self.mergeKLists(left),self.mergeKLists(right))
