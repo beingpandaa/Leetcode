@@ -59,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sliding Window
 |  |
 | ------- |
+| [1004-max-consecutive-ones-iii](https://github.com/beingpandaa/Leetcode/tree/master/1004-max-consecutive-ones-iii) |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/beingpandaa/Leetcode/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [3090-maximum-length-substring-with-two-occurrences](https://github.com/beingpandaa/Leetcode/tree/master/3090-maximum-length-substring-with-two-occurrences) |
 ## Array
@@ -99,6 +100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0704-binary-search](https://github.com/beingpandaa/Leetcode/tree/master/0704-binary-search) |
 | [0848-shifting-letters](https://github.com/beingpandaa/Leetcode/tree/master/0848-shifting-letters) |
 | [0875-koko-eating-bananas](https://github.com/beingpandaa/Leetcode/tree/master/0875-koko-eating-bananas) |
+| [1004-max-consecutive-ones-iii](https://github.com/beingpandaa/Leetcode/tree/master/1004-max-consecutive-ones-iii) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/beingpandaa/Leetcode/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/beingpandaa/Leetcode/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [2089-find-target-indices-after-sorting-array](https://github.com/beingpandaa/Leetcode/tree/master/2089-find-target-indices-after-sorting-array) |
@@ -132,6 +134,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0540-single-element-in-a-sorted-array](https://github.com/beingpandaa/Leetcode/tree/master/0540-single-element-in-a-sorted-array) |
 | [0704-binary-search](https://github.com/beingpandaa/Leetcode/tree/master/0704-binary-search) |
 | [0875-koko-eating-bananas](https://github.com/beingpandaa/Leetcode/tree/master/0875-koko-eating-bananas) |
+| [1004-max-consecutive-ones-iii](https://github.com/beingpandaa/Leetcode/tree/master/1004-max-consecutive-ones-iii) |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/beingpandaa/Leetcode/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [2089-find-target-indices-after-sorting-array](https://github.com/beingpandaa/Leetcode/tree/master/2089-find-target-indices-after-sorting-array) |
 | [2529-maximum-count-of-positive-integer-and-negative-integer](https://github.com/beingpandaa/Leetcode/tree/master/2529-maximum-count-of-positive-integer-and-negative-integer) |
@@ -234,6 +237,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0525-contiguous-array](https://github.com/beingpandaa/Leetcode/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/beingpandaa/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0848-shifting-letters](https://github.com/beingpandaa/Leetcode/tree/master/0848-shifting-letters) |
+| [1004-max-consecutive-ones-iii](https://github.com/beingpandaa/Leetcode/tree/master/1004-max-consecutive-ones-iii) |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/beingpandaa/Leetcode/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [2381-shifting-letters-ii](https://github.com/beingpandaa/Leetcode/tree/master/2381-shifting-letters-ii) |
 | [2588-count-the-number-of-beautiful-subarrays](https://github.com/beingpandaa/Leetcode/tree/master/2588-count-the-number-of-beautiful-subarrays) |
